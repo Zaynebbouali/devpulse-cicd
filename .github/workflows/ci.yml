@@ -61,9 +61,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'      # met en cache node_modules pour accélérer
 
-      # Installer stylelint (outil de validation CSS)
+      # Installer stylelint (outil de validation CSS))
       - name: 📦 Installer stylelint
         run: npm install -g stylelint stylelint-config-standard
 
